@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header id="header">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <button id="dark-mode-toggle"><i class="fas fa-moon"></i> Dark</button>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I'm an aspiring petroleum engineer, I was made to come here by parents because no skill goes to waste I started about a month ago but I believe in my skills to provide your needs .</p>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <img src="Godsfavour's portfolio/media/images/IMG_0717.JPG" alt="Profile photo" class="Godsfavour's portfolio/media/images/IMG_0717.JPG">
+                <p>Hi! I'm Godsfavour Ezeani. I have been learning web development for the past year. I enjoy building responsive sites and exploring new technologies. When I'm not coding, I love hiking and photography.</p>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>This one is basically my first site was still learning i mean i still am but this was a starting point.</p>
+                        <a href="Godsfavour's portfolio/testing.html" class="btn">Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>This one demonstrates the strength of forms it basically shows a form i created for a company please note that it still a work in progress.</p>
+                        <a href="Godsfavour's portfolio/forms.html" class="btn">Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>This is a site that i used css and html to make it basically just shows the basics of these two languages</p>
+                        <a href="Godsfavour's portfolio/externalcss.html" class="btn">Live Demo</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Find me on 
+                <a href="https://github.com/favour_404" target="_blank"><i class="fab fa-github"></i> GitHub</a> &bull;
+                <a href="https://linkedin.com/in/favour_notfound" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+            <p>&copy; 2025 Godsfavour Ezeani. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="PORT.JS"></script>
+</body>
+</html>
